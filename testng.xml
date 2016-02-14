@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="0" >
+    <parameter name="config-file" value="src/main/resources/config.properties/"/>
+    <test name="Nopackage" >
+        <classes>
+            <class name="TestSelenium" />
+        </classes>
+    </test>
+</suite>
